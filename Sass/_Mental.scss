@@ -1,0 +1,238 @@
+#Mental {
+  padding: 24px 0;
+  background-color: $color-1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .Mental_img {
+    img {
+      width: 100%;
+    }
+  }
+  .Mental_text {
+    .Mental_name {
+      h2 {
+        color: $color-3;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+        margin-bottom: 14px;
+      }
+      p {
+        color: $color-3;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        margin-bottom: 14px;
+        span {
+          color: $color-3;
+          font-size: 16px;
+          font-style: italic;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+        }
+      }
+    }
+    .Mental_boxes {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 5px;
+      margin-left: 40px;
+      .Mental_box {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        .m_circle {
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background-color: $color-3;
+        }
+        h5 {
+          color: $color-3;
+          text-align: center;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 696px){
+    #Mental {
+        row-gap: 29px;
+        .container {
+          max-width: 90%;
+        }
+        .Mental_img {
+          img {
+            width: 100%;
+          }
+        }
+        .Mental_text {
+          .Mental_name {
+            h2 {
+              margin-bottom: 29px;
+            }
+            p {
+              margin-bottom: 29px;
+              span {
+                color: $color-3;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+              }
+            }
+          }
+          .Mental_boxes {
+            gap: 10px;
+            margin-left: 110px;
+          
+            .Mental_box {
+              h5 {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }  
+}
+@media screen and (min-width: 1025px){
+    #Mental {
+        padding: 32px 0 64px 0;
+        display: flex;
+        flex-direction: column;
+        .container {
+          max-width: 90%;
+        }
+        .Mental_img{
+            margin-bottom: 64px;
+        }
+        .Mental_text {
+            display: flex;
+            align-items: start;
+            gap: 130px;
+          .Mental_name {
+            h2 {
+                text-align: left;
+              font-size: 24px;
+              margin-bottom: 16px;
+              width: 400px;
+            }
+            p {
+                text-align: left;
+                width: 416px;
+              margin-bottom: 0;
+            }
+          }
+          .Mental_boxes {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+            margin-left: 0;
+            .Mental_box {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              .m_circle {
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: $color-3;
+              }
+              h5 {
+                color: $color-3;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+              }
+            }
+          }
+        }
+      }
+}
+@media screen and (min-width: 1440px){
+    #Mental {
+      .mental{
+        padding: 96px 0;
+        display: flex;
+        flex-direction: row;
+        row-gap: 0;
+        align-items: center;
+        justify-content: space-between;
+        gap: 133px;
+      }
+        .container {
+          max-width: 1388px;
+        }
+        .Mental_img{
+            margin-right: 0px;
+        }
+        .Mental_text {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            margin-right: 100px;
+          .Mental_name {
+            h2 {
+                width: 503px;
+              text-align: start;
+              margin-bottom: 16px;
+            }
+            p {
+                width: 503px;
+              text-align: start;
+              margin-bottom: 16px;
+            }
+          }
+          .Mental_boxes {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+            margin-left: 0;
+            .Mental_box {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              .m_circle {
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background-color: $color-3;
+              }
+              h5 {
+                color: $color-3;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.1px;
+              }
+            }
+          }
+        }
+      }
+}
